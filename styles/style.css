@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "opensans" ;
+    src:url(../font/Open_Sans/OpenSans-Regular.ttf);
+    
+    
+}
+@font-face {
+    font-family: "slabo" ;
+    src: url(../font/Slabo_27px/Slabo27px-Regular.ttf);
+}
+
+
+
+body{
+background-image: url(../img/fond.png);
+font-size: 1em;
+
+}
+.container{
+    max-width: 1100px;
+    min-width: 800px;
+    text-align: center;
+   /* Center the container */
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+header{
+    background-color: #34B1B2;
+    border-top: 3px #2B9AA0 solid;
+    border-bottom: 3px #2B9AA0 solid;
+    text-align: center;
+    margin-top: 60px;
+}
+ul{
+    padding-left: 0px;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left:auto;
+    margin-right:auto;
+    padding-right: 30px;
+
+}
+li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.welcome{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
+   
+}
+
+section div{
+    
+    width: 63%;
+    text-align: center;
+    background-color: #B6DEDC;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    
+}
+section div .article1 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-right: 8px;
+    
+    
+}
+section div .article2{
+    display: inline-block;
+    width: 40%;
+    margin-left: 10px;
+    margin-left: 8px;
+    overflow: auto;
+}
+
+
+
+article img{
+    float: left;
+    border-radius: 50%;
+    
+}
+section div article p{
+    text-align: justify;
+
+}
+section div article button{
+    float: right;
+    background-color: #34B1B2;
+    color: white;
+    border: transparent;
+    padding: 5px;
+}
+aside{
+    clear: both;
+    display:inline-block;
+    width:30%;
+    position: relative;
+    text-align: justify;
+    border:3px #2B9AA0 solid ;
+    background-color: #34B1B2;
+    
+    padding: 10px;
+    
+}
+aside img{
+    margin-bottom: 1px;
+    margin-left: 6px;
+    position: absolute;
+    top: -49px;
+    right: -41px;
+    width: inherit;
+    
+}
+button ion-icon{
+    vertical-align: bottom;
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    margin-top: 16px;
+}
+footer img{
+    width: 5%;
+}
+footer p{
+    font-size: small;
+}
+/* fonts */
+aside h3{
+    font-family: "opensans";
+}
+aside {
+    color: white;
+    font-size: 1em;
+    font-family: "slabo";
+}
+aside h3 span{
+    color: #B6DEDC;
+}
+.welcome h3{
+    font-size: 2.5em;
+}
+section div h2{
+    font-size: 3.5em;
+}
+section div h2 span{
+    color:#34B1B2;
+}
+section article,section div h2,.welcome{
+    font-family: "slabo";
+}
+section div article p{
+    font-size: 1.4em;
+}
+section div article h3{
+    font-size: 1.8em;
+}
